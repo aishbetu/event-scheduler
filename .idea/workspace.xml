@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb3f1bb-7de3-4659-9707-0a369d2516b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomDatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EventForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EventModalButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/eventList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomDatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomDatePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EventForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EventForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/eventList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/eventList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +41,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -78,7 +70,8 @@
       <updated>1598690784690</updated>
       <workItem from="1598690787322" duration="7609000" />
       <workItem from="1598718434047" duration="10402000" />
-      <workItem from="1598777292447" duration="246000" />
+      <workItem from="1598777292447" duration="5527000" />
+      <workItem from="1598808005851" duration="6579000" />
     </task>
     <servers />
   </component>
@@ -86,26 +79,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="140" key="GridCell.Tab.0.bottom" timestamp="1598733483948">
+    <state width="1515" height="140" key="GridCell.Tab.0.bottom" timestamp="1598793945583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="140" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598733483948" />
-    <state width="1515" height="140" key="GridCell.Tab.0.center" timestamp="1598733483948">
+    <state width="1515" height="140" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598793945583" />
+    <state width="1515" height="140" key="GridCell.Tab.0.center" timestamp="1598793945583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="140" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598733483948" />
-    <state width="1515" height="140" key="GridCell.Tab.0.left" timestamp="1598733483948">
+    <state width="1515" height="140" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598793945583" />
+    <state width="1515" height="140" key="GridCell.Tab.0.left" timestamp="1598793945583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="140" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598733483948" />
-    <state width="1515" height="140" key="GridCell.Tab.0.right" timestamp="1598733483948">
+    <state width="1515" height="140" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598793945583" />
+    <state width="1515" height="140" key="GridCell.Tab.0.right" timestamp="1598793945583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="140" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598733483948" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1598720067724">
+    <state width="1515" height="140" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598793945583" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1598810257066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598720067724" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598810257066" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598719003326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

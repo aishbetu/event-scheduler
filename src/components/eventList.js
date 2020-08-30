@@ -2,7 +2,26 @@ import React from "react";
 import {Container, Row, Table} from "react-bootstrap";
 import EventModal from "./EventModalButton";
 
+
 class EventList extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            title: '',
+            eventtype: '',
+            time: '',
+        }
+    }
+
+    componentDidMount() {
+        const eventData = JSON.parse(localStorage.getItem('Data'));
+        this.setState({
+            title: eventData.title,
+            eventtype: eventData.eventtype,
+            time: eventData.time
+        })
+    }
+
     render() {
         return (
             <Container fluid="md">
@@ -17,23 +36,16 @@ class EventList extends React.Component{
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Python workshop</td>
-                        <td>WorkShop</td>
-                        <td>12:00PM</td>
-                        <td>Saturday, 29/08/2020</td>
-                    </tr>
-                    <tr>
-                        <td>Pandemic Situation</td>
-                        <td>Webinar</td>
-                        <td>02:00PM</td>
-                        <td>Saturday, 29/08/2020</td>
+                        <td>{this.state.title}</td>
+                        <td>{this.state.eventtype}</td>
+                        <td>{this.state.time}</td>
+                        <td>Monday, 31/08/2020</td>
                     </tr>
                     </tbody>
                 </Table>
 
                 <Container className="row"/>
                 <Row className="justify-content-center">
-                    // Open Modal Form to Add new Data
                     <EventModal />
                 </Row>
             </Container>

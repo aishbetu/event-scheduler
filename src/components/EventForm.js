@@ -78,10 +78,16 @@ class EventForm extends React.Component{
 
     constructor() {
         super();
+
+        this.handleTitleChange = this.handleTitleChange.bind(this);
+        this.handleTypeChange = this.handleTypeChange.bind(this);
+        this.handleTimeChange = this.handleTimeChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+
         this.state = {
             title: '',
-            eventtype: null,
-            time: null,
+            eventtype: '',
+            time: '',
         }
     }
 
@@ -103,9 +109,20 @@ class EventForm extends React.Component{
         })
     };
 
-    handleSubmit = () => {
-      alert(`${this.state.title} ${this.state.eventtype}, ${this.state.time}`)
+    handleSubmit = (e) => {
+        const { title, eventtype, time } = this.state;
+        let data = {
+            title: title,
+            eventtype: eventtype,
+            time: time
+        }
+
+        localStorage.setItem('Data', JSON.stringify(data));
+/*        localStorage.setItem('eventtype', eventtype);
+        localStorage.setItem('time', time);*/
+      // alert(`${this.state.title} ${this.state.eventtype}, ${this.state.time}`)
     };
+
 
     render() {
         return (

@@ -12,7 +12,7 @@ const CustomDatePicker = () => {
             onChange={date => setSelectedDate(date)}
             dateFormat='dd/MM/yyyy'
             minDate={new Date()}
-
+            placeholderText="Select Date"
         />
     );
 };
